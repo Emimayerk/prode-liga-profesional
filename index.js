@@ -55,3 +55,9 @@ function prepararYEnviarPorWhatsApp() {
   // Abrir la pestaña de WhatsApp en una nueva ventana
   window.open(enlaceWhatsApp, '_blank');
 }
+
+const updateForm = document.getElementById('submit-form');
+
+updateForm.addEventListener('click', () => {
+  location.reload();
+});

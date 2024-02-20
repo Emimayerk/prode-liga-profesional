@@ -50,7 +50,7 @@ main {
 }
 
 #description-container {
-  width: 50%;
+  padding: 1rem;
   margin: 4rem;
   background-color: #32383e;
   border-radius: 5px;
@@ -224,7 +224,10 @@ input.input-data:hover {
   }
 
   .form-data {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 0.5rem;
     text-align: center;
     background: #2e2e2e9c;
@@ -234,7 +237,7 @@ input.input-data:hover {
   }
 
   input.input-data {
-    width: auto;
+    width: 100%;
     text-align: center;
     padding: 1rem;
     margin: 0.5rem;
