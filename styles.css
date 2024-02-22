@@ -22,6 +22,16 @@
   font-size: 48px;
 }
 
+#box-title-prode a {
+  color: #fff;
+  font-size: 18px;
+}
+
+#box-title-prode a:hover {
+  color: #d3d3d3;
+  font-size: 18px;
+}
+
 #logo {
   width: 75px;
   height: 75px;
@@ -47,6 +57,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #000000ad;
 }
 
 #description-container {
@@ -82,7 +93,7 @@ main {
   color: #000;
 }
 
-/* FORM TICKETS  */
+/* FORM RESULTADOS  */
 
 #form-container {
   /* background-color: #ffffffa2; */
@@ -133,10 +144,61 @@ input.input-data:hover {
   transition: 0.2s;
 }
 
-/* input.input-data:focus {
-  background: #2e2e2e;
-  color: #f3f3f3;
-} */
+/* FORM DATA USER */
+
+#box-data-user {
+  margin: 2rem;
+}
+
+#wrapped-data-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  background: #000000ad;
+  color: #ffffffe0;
+}
+
+#wrapped-data-user h2 {
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+  padding: 0 0 0.25rem 0;
+  margin: 0 0 2rem 0;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+#wrapped-data-user input {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: #00000000;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  margin: 0.25rem 0;
+  width: 40%;
+  border-bottom: 1px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+
+#wrapped-data-user input:focus {
+  color: #fff;
+  border-bottom: 1px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+#wrapped-data-user input::placeholder {
+  color: rgb(221, 221, 221);
+}
+
+/* FORM BUTTON */
 
 .selected {
   background-color: #2e2e2e !important;
@@ -147,11 +209,13 @@ input.input-data:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #000000ad;
 }
 
 #submit-form {
-  background: #f3f3f3;
-  color: #000;
+  background: #2e2e2e;
+  color: #f3f3f3;
+  box-shadow: 0 2px 4px #474747a2;
   text-align: center;
   padding: 1rem;
   font-size: 18px;
@@ -164,9 +228,8 @@ input.input-data:hover {
   margin: 3rem;
 }
 
-#submit-form {
-  background: #2e2e2e;
-  color: #f3f3f3;
+#submit-form:hover {
+  background-color: #252525;
 }
 
 /* FOOTER */
