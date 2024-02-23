@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 
         // Marcar la opción actual
-        input.style.backgroundColor = '#2e2e2e';
-        input.style.color = '#fff';
+        input.style.backgroundColor = '#45661a';
+        input.style.color = '#f0e7d6';
       });
     });
   });
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const mensajeWhatsApp = 'Mi Prode:\n' + resultados.join('\n') + '\n\nDatos del Usuario:\n' + datosUsuario.join('\n');
 
     // Número de teléfono al que enviar el mensaje (reemplaza con el número deseado)
-    const numeroTelefono = '3465405225';
+    const numeroTelefono = '3465667343';
 
     // Formatear el mensaje para la URL
     const mensajeWhatsAppCodificado = encodeURIComponent(mensajeWhatsApp);

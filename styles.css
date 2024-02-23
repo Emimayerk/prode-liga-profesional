@@ -5,36 +5,39 @@
   font-family: 'Open Sans', 'Roboto';
 }
 
+
+
+
+
 /* HEADER */
 
 #header {
   height: 120px;
   width: 100%;
-  background-color: #32383e;
+  background-color: #f0e7d6;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  box-shadow: 0 2px 4px #474747a2;
+  box-shadow: 0 2px 4px #f0e7d6;
 }
 
-#box-title-prode h2 {
-  color: #fff;
+.box-title-prode h2 {
+  color: #000000;
   font-size: 48px;
 }
 
-#box-title-prode a {
-  color: #fff;
+.box-title-prode a {
+  color: #45661a;
   font-size: 18px;
 }
 
-#box-title-prode a:hover {
-  color: #d3d3d3;
+.box-title-prode a:hover {
+  color: #5c8528;
   font-size: 18px;
 }
 
 #logo {
-  width: 75px;
-  height: 75px;
+  width: 150px;
   height: auto;
 }
 
@@ -63,9 +66,9 @@ main {
 #description-container {
   padding: 1rem;
   margin: 4rem;
-  background-color: #32383e;
+  background-color: #f0e7d6;
   border-radius: 5px;
-  border: 2px solid #32383e;
+  border: 2px solid #f0e7d6;
 }
 
 #description-container span {
@@ -77,11 +80,11 @@ main {
 #box-title h1 {
   font-size: 48px;
   font-weight: 400;
-  color: #fff;
+  color: #000000;
 }
 
 #box-subtitle {
-  background-color: #fff;
+  background-color: #f0e7d6;
   margin: 1rem 0.5rem;
   padding: 2rem;
   border-radius: 5px;
@@ -102,7 +105,7 @@ main {
 }
 
 #title-form {
-  background-color: #32383e00;
+  background-color: #f0e7d6;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,7 +115,7 @@ main {
 #title-form h2 {
   font-size: 20px;
   font-weight: 400;
-  color: #fff;
+  color: #000000;
   padding: 1rem 2rem;
 }
 
@@ -123,14 +126,14 @@ main {
 }
 
 input.input-data {
-  background: #f3f3f3;
+  background: #f0e7d6;
   width: 33.333%;
   color: #000;
   text-align: center;
   padding: 1rem;
   font-size: 18px;
   font-weight: 600;
-  border: 1px solid #252525;
+  border: 1px solid #f0e7d6;
   border-radius: 2px;
   text-transform: uppercase;
   cursor: pointer;
@@ -139,8 +142,8 @@ input.input-data {
 }
 
 input.input-data:hover {
-  background: #2e2e2e;
-  color: #f3f3f3;
+  background: #45661a;
+  color: #f0e7d6;
   transition: 0.2s;
 }
 
@@ -179,7 +182,7 @@ input.input-data:hover {
   letter-spacing: 0.5px;
   margin: 0.25rem 0;
   width: 40%;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #f0e7d6;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -188,7 +191,7 @@ input.input-data:hover {
 
 #wrapped-data-user input:focus {
   color: #fff;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #f0e7d6;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -213,14 +216,14 @@ input.input-data:hover {
 }
 
 #submit-form {
-  background: #2e2e2e;
-  color: #f3f3f3;
+  background: #f0e7d6;
+  color: #000000;
   box-shadow: 0 2px 4px #474747a2;
   text-align: center;
   padding: 1rem;
   font-size: 18px;
   font-weight: 600;
-  border: 1px solid #252525;
+  border: 1px solid #f0e7d6;
   border-radius: 2px;
   text-transform: uppercase;
   cursor: pointer;
@@ -229,7 +232,8 @@ input.input-data:hover {
 }
 
 #submit-form:hover {
-  background-color: #252525;
+  background-color: #45661a;
+  color: #f0e7d6;
 }
 
 /* FOOTER */
@@ -237,8 +241,8 @@ input.input-data:hover {
 #footer {
   height: 50px;
   width: 100%;
-  background-color: #32383e;
-  box-shadow: 0 2px 4px #474747a2;
+  background-color: #f0e7d6;
+  box-shadow: 0 2px 4px #f0e7d6;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -247,19 +251,32 @@ input.input-data:hover {
 #footer h5 {
   font-size: 12px;
   text-align: center;
-  color: #929292;
+  color: #45661a;
 }
 
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 768px) {
+
+  #header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+  }
+
+  div#logo {
+    margin-bottom: 2rem;
+}
+
   main {
     background-repeat: repeat;
     background-size: auto;
     background-position: center;
   }
 
-  #box-title-prode h2 {
+  .box-title-prode h2 {
     font-size: 18px;
   }
 
@@ -293,7 +310,7 @@ input.input-data:hover {
     flex-direction: column;
     padding: 0.5rem;
     text-align: center;
-    background: #2e2e2e9c;
+    background: #ffffff9c;
     margin: 1rem;
     border-radius: 5px;
     box-shadow: 0 2px 4px #474747a2;
@@ -305,5 +322,13 @@ input.input-data:hover {
     padding: 1rem;
     margin: 0.5rem;
     font-size: 16px;
+  }
+
+  #wrapped-data-user input {
+    width: 100%;
+  }
+
+  #wrapped-data-user h2 {
+    font-size: 18px;
   }
 }
