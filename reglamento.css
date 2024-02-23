@@ -3812,7 +3812,7 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-    padding-top    : var(--vspace-5);
+    padding-top    : 1rem;
     padding-bottom : var(--vspace-5);
 }
 
