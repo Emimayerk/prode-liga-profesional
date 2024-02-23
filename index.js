@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
       let resultadoSeleccionado = null;
 
       inputs.forEach((input) => {
-        if (input.style.backgroundColor === 'rgb(46, 46, 46)') {
+        if (input.style.backgroundColor === 'rgb(69, 102, 26)') {
           resultadoSeleccionado = input.value;
         }
       });
