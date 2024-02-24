@@ -92,17 +92,23 @@ main {
   color: #000000;
 }
 
-#box-subtitle {
+.box-subtitle {
   background-color: #f0e7d6;
-  margin: 1rem 0.5rem;
-  padding: 2rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
   border-radius: 5px;
 }
 
-#box-subtitle h5 {
+.box-subtitle h5 {
   font-size: 20px;
   font-weight: 400;
   color: #000;
+}
+
+.box-subtitle h6 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #8a0000;
 }
 
 /* FORM RESULTADOS  */
@@ -299,11 +305,7 @@ input.input-data:hover {
     font-size: 24px;
   }
 
-  #box-subtitle {
-    padding: 1rem;
-  }
-
-  #box-subtitle h5 {
+  .box-subtitle h5 {
     font-size: 18px;
   }
 
