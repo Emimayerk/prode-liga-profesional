@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const mensajeWhatsApp = 'Mi Prode:\n' + resultados.join('\n') + '\n\nDatos del Usuario:\n' + datosUsuario.join('\n');
 
     // Número de teléfono al que enviar el mensaje (reemplaza con el número deseado)
-    const numeroTelefono = '3465667343';
+    const numeroTelefono = '+5493465667343';
 
     // Formatear el mensaje para la URL
     const mensajeWhatsAppCodificado = encodeURIComponent(mensajeWhatsApp);

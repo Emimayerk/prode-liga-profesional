@@ -5,10 +5,6 @@
   font-family: 'Open Sans', 'Roboto';
 }
 
-
-
-
-
 /* HEADER */
 
 #header {
@@ -79,6 +75,19 @@ main {
 
 #box-title h1 {
   font-size: 48px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.box-title-prode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box-title-prode h3 {
+  font-size: 16px;
   font-weight: 400;
   color: #000000;
 }
@@ -257,18 +266,17 @@ input.input-data:hover {
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 768px) {
-
   #header {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 200px;
+    height: 225px;
   }
 
   div#logo {
     margin-bottom: 2rem;
-}
+  }
 
   main {
     background-repeat: repeat;
@@ -322,7 +330,7 @@ input.input-data:hover {
     padding: 1rem;
     margin: 0.5rem;
     font-size: 16px;
-    border: 1px solid #f0e7d6; 
+    border: 1px solid #f0e7d6;
   }
 
   #wrapped-data-user input {
