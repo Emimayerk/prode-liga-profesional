@@ -216,6 +216,15 @@ input.input-data:hover {
   color: rgb(221, 221, 221);
 }
 
+span.date-time {
+  color: rgb(221, 221, 221);
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
 /* FORM BUTTON */
 
 .selected {
