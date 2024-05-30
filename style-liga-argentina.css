@@ -67,6 +67,16 @@ main {
   border: 2px solid #f0e7d6;
 }
 
+/* .box-country {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.box-country {
+  width: 25px;
+}
+
 #description-container span {
   display: flex;
   justify-content: center;

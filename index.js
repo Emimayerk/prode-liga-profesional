@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', () => {
   const formDatas = document.querySelectorAll('.form-data');
   const userInputs = document.querySelectorAll('.user-data');
 
