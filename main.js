@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Codifica el mensaje para la URL de WhatsApp
     const whatsappMessage = encodeURIComponent(message);
-    const whatsappNumber = '+5493465405225'; // Número de WhatsApp destinatario (reemplazar con el número correcto)
+    const whatsappNumber = '5493416725781'; // Número de WhatsApp destinatario (reemplazar con el número correcto)
 
     // Abre WhatsApp con el mensaje
     window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank');
