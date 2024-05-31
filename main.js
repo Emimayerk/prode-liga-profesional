@@ -9,15 +9,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
       // Remueve la clase "selected" de todos los inputs del mismo partido
       parentDiv.querySelectorAll('.input-test').forEach((item) => {
+        console.log(item);
         item.classList.remove('selected');
         item.style.backgroundColor = ''; // Remueve el color de fondo
         item.style.color = ''; // Remueve el color del texto
+        item.style.textDecoration = 'none';
       });
 
       // Añade la clase "selected" al input clicado
       this.classList.add('selected');
       this.style.backgroundColor = '#fff'; // Color de fondo blanco
       this.style.color = '#45661a'; // Color de texto verde
+      this.style.textDecoration = 'underline'; // Color de texto verde
     });
   });
 
