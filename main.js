@@ -6,10 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
   inputs.forEach((input) => {
     input.addEventListener('click', function () {
       const parentDiv = this.parentElement.parentElement;
-
       // Remueve la clase "selected" de todos los inputs del mismo partido
       parentDiv.querySelectorAll('.input-test').forEach((item) => {
-        console.log(item);
         item.classList.remove('selected');
         item.style.backgroundColor = ''; // Remueve el color de fondo
         item.style.color = ''; // Remueve el color del texto
