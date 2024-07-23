@@ -9,7 +9,7 @@ export const Logo = ({ className }: LogoProps) => {
   const rootClass = 'prode-logo';
 
   return (
-    <figure className={`${rootClass} ${className && className}`}>
+    <figure className={`${rootClass} ${className || ''}`}>
       <img src={logo} alt="Prode Caracol logo" />
     </figure>
   );

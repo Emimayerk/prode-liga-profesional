@@ -74,22 +74,22 @@ export default [
               position: 'before',
             },
             {
-              pattern: '../../**',
+              pattern: '../../**/**',
               group: 'internal',
               position: 'after',
             },
             {
-              pattern: '../**',
+              pattern: '../**/**',
               group: 'internal',
               position: 'after',
             },
             {
-              pattern: './**',
+              pattern: './**/**',
               group: 'internal',
               position: 'after',
             },
           ],
-          pathGroupsExcludedImportTypes: ['builtin'],
+          pathGroupsExcludedImportTypes: ['react'],
           'newlines-between': 'always',
           alphabetize: {
             order: 'asc',
@@ -97,7 +97,13 @@ export default [
           },
         },
       ],
-      'import/no-default-export': 'error',
+      '@typescript-eslint/array-type': [
+        'error',
+        {
+          default: 'generic',
+          readonly: 'generic',
+        },
+      ],
     },
     settings: {
       'import/parser': {

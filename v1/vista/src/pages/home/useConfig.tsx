@@ -1,10 +1,5 @@
-export interface Match {
-  local: string;
-  visita: string;
-}
-
 export const useConfig = () => {
-  const matches: Array<Match> = [
+  const matches: Array<Record<string, string>> = [
     {
       local: 'Equipo A',
       visita: 'Equipo B',
